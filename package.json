@@ -1,0 +1,43 @@
+{
+  "name": "calcfyi-embed",
+  "version": "1.0.0",
+  "description": "Embed CalcFYI widgets — calculator cards, formula display, glossary terms. 200+ calculators. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "calculator",
+    "formula",
+    "math",
+    "financial",
+    "compound-interest",
+    "mortgage",
+    "BMI",
+    "embed",
+    "widget",
+    "calcfyi",
+    "calcfyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "guidefyi"
+  ],
+  "homepage": "https://widget.calcfyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/calcfyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/calcfyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
