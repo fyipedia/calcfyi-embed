@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# CalcFYI Embed Widget
+# Main site: https://calcfyi.com
+# Widget docs: https://widget.calcfyi.com
+# npm: https://www.npmjs.com/package/calcfyi-embed
