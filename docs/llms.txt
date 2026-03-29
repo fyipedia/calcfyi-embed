@@ -1,21 +1,51 @@
 # CalcFYI Embed Widget
 
-> Embeddable CalcFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 200+ calculators, financial, health. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/calcfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/calcfyi-embed@1/dist/embed.min.js"></script>
+<div data-calcfyi="formula-card" data-slug="example"></div>
+```
+
+## Available Widget Types (7)
+
+- entity: `data-calcfyi="entity"`
+- glossary: `data-calcfyi="glossary"`
+- guide: `data-calcfyi="guide"`
+- compare: `data-calcfyi="compare"`
+- search: `data-calcfyi="search"`
+- faq: `data-calcfyi="faq"`
+- formula-card (interactive): `data-calcfyi="formula-card"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-calcfyi="formula-card" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/calcfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://calcfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://calcfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://calcfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://calcfyi.com
 - Widget docs: https://widget.calcfyi.com
-- npm: https://www.npmjs.com/package/calcfyi-embed
+- API documentation: https://calcfyi.com/developers/
+- npm package: https://www.npmjs.com/package/calcfyi-embed
 - GitHub: https://github.com/fyipedia/calcfyi-embed
-- API: https://calcfyi.com/developers/
 
-## Guide FYI Widget Family
+## Guide FYI Widget Network
 
 - [SalaryFYI Widget](https://widget.salaryfyi.com)
 - [UnivFYI Widget](https://widget.univfyi.com)
